@@ -1,0 +1,38 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss --output src/public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icuong/nodejs_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "chinese"
+  ],
+  "author": "CC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icuong/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/icuong/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "description": ""
+}
